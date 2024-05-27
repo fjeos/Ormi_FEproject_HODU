@@ -241,9 +241,9 @@ label > button{
     top: -130px;
 }
 .hover{
-    position: absolute;
-    right: 15px;
-    top: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
 }
 footer{
     display: flex;

@@ -130,4 +130,8 @@ mouse.addEventListener("mouseout", () => {
     mouse.setAttribute("src", "img/hover.svg");
 });
 
+mouse.addEventListener("click", () => {
+    window.scrollTo({top:0, left:0, behavior:"smooth"});
+})
+
 
