@@ -4,7 +4,7 @@
 * "Continue Exploring Hodu" 텍스트와 show more 버튼을 없앰
 */
 const btn = document.querySelector("#show");
-const before = document.querySelector("ul");
+const before = document.querySelector(".hodu-img");
 const text = document.querySelector(".more-hodu")
 let pageToPatch = 1;
 let countMore = 1;
