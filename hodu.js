@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {fetchImages(pageToPatch += 1)});
 
 async function fetchImages(page){
     try {
-        const response = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=6`);
+        const response = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=3`);
 
         // 제이슨 데이터를 자바스크립트 객체로 파싱
         const images = await response.json();
